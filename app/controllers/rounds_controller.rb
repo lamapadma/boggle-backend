@@ -5,6 +5,15 @@ class RoundsController < ActionController::API
     render json: @round
   end
 
+  def create
+    @round = Round.create(score: params[:score], username: params[:name])
+  end
+
+  def highscores
+    @highscores = Round.all.sort_by {|round| -round.score}.slice(0, 10)
+    render json: @highscores
+  end
+
 
 
 
