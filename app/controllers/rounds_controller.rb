@@ -14,6 +14,12 @@ class RoundsController < ActionController::API
     render json: @highscores
   end
 
+  def checkword
+    word = params[:word]
+    @response = DICTIONARY.include?(word)
+    render json: @response
+  end
+
 
 
 

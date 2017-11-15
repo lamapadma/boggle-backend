@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get '/rounds/new', to: 'rounds#new'
   get '/rounds/highscores', to: 'rounds#highscores'
   post '/rounds', to: 'rounds#create'
+  post '/rounds/checkword', to: 'rounds#checkword'
 
 end
