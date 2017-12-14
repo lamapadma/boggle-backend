@@ -1,24 +1,9 @@
-# README
+# Boggle
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend for Boggle, the classic word game. It was built in Ruby on Rails as a project for the Flatiron School, completed twelve weeks into the software engineering program.
 
-Things you may want to cover:
+Demonstration: https://youtu.be/oIvMeTkaaVY
 
-* Ruby version
+The frontend, built in React, can be found here: https://github.com/stopvoldemort/boggle.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy!
