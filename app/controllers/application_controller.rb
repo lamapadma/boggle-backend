@@ -1,4 +1,4 @@
-require 'lib/dictionary'
-
+# require 'lib/dictionary'
+#
 class ApplicationController < ActionController::API
 end
