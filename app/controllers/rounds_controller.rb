@@ -15,7 +15,7 @@ class RoundsController < ActionController::API
   end
 
   def checkword
-    @test = true
+    @test = !!DOESNOTEXIST
     render json: @test
     # word = params[:word]
     # @response = DICTIONARY.include?(word)
