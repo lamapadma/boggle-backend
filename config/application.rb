@@ -1,5 +1,5 @@
 require_relative 'boot'
-
+require_relative '../lib/dictionary.rb'
 
 require "rails"
 # Pick the frameworks you want:
