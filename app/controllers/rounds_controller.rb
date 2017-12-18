@@ -15,11 +15,11 @@ class RoundsController < ActionController::API
   end
 
   def checkword
-    @test = !!DICTIONARY
-    render json: @test
-    # word = params[:word]
-    # @response = DICTIONARY.include?(word)
-    # render json: @response
+    # @test = !!DICTIONARY
+    # render json: @test
+    word = params[:word]
+    @response = DICTIONARY.include?(word)
+    render json: @response
   end
 
 
