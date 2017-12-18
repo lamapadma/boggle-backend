@@ -1,4 +1,4 @@
-require 'set'
+# require 'set'
 
 DICTIONARY = ["aardvark",
 "aardwolf",
@@ -58109,4 +58109,4 @@ DICTIONARY = ["aardvark",
 "zooplankton",
 "zoos",
 "zulu",
-"zulus"].to_set
+"zulus"]
