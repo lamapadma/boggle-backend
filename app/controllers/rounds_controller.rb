@@ -1,3 +1,5 @@
+require_relative '../../lib/dictionary.rb'
+
 class RoundsController < ActionController::API
 
   def new
