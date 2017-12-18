@@ -1,5 +1,3 @@
-# require 'set'
-
 DICTIONARY = ["aardvark",
 "aardwolf",
 "aaron",
